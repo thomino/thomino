@@ -14,7 +14,11 @@ export function Home() {
                     Hello <span className='text-[#f40c28] font-bold'>BITCHES</span>
                 </div>
 
-                <div className='h-px w-1/2 md:w-1/4 bg-zinc-800 line-in mt-3 mb-10 mx-auto' />
+                <motion.div
+                  initial={{ scale:0 }}
+                  animate={{ scale: 1 }}
+                  transition={{ ease: "easeInOut", duration: 0.6, delay:0.5 }}
+                className='h-px w-1/2 md:w-1/4 bg-zinc-800 line-in mt-3 mb-10 mx-auto' />
 
 
                 <div className=' mx-auto relative z-40 flex flex-col'>
@@ -37,7 +41,11 @@ export function Home() {
                       UI/UX Designer
                       </div>
                     </motion.div>
-                    <div className='h-px w-1/2 md:w-1/4 bg-zinc-800 line-in mb-3 mt-10  flex-shrink' />
+                    <motion.div
+                      initial={{ scale:0 }}
+                      animate={{ scale: 1 }}
+                      transition={{ duration: 1, delay:0.5 }}
+                    className='h-px w-1/2 md:w-1/4 bg-zinc-800 line-in mb-3 mt-10  flex-shrink' />
                 <div className='text-sm w-1/2 uppercase  mx-auto font-opensans relative z-50'>
                     Since<span className='text-[#f40c28] font-bold'> 2008</span>
                 </div>
