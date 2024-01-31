@@ -50,9 +50,12 @@ export function Home() {
                     Since<span className='text-[#f40c28] font-bold'> 2008</span>
                 </div>
 
-                <div className='w-full h-full absolute top-0 left-0 bg-grid gradient-radial'>
-                    
-                  </div>
+                <motion.div
+                initial={{opacity:0}}
+                whileInView={{opacity:1}}
+                transition={{delay: 1, duration: 1}}
+                viewport={{once: false}}
+                className='w-full h-full absolute top-0 left-0 bg-grid gradient-radial' />
         </div>
         </>
     );
