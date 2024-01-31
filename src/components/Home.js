@@ -8,7 +8,7 @@ export function Home() {
     return (
         <>
         
-        <div className=' text-white bg-zinc-900 text-center scale-100 p-4 h-full w-full flex flex-col items-center justify-center overflow-hidden'>
+        <div className=' text-white bg-zinc-900 text-center scale-100 p-4 h-full w-full flex flex-col items-center relative justify-center overflow-hidden'>
             
                 <div className='text-sm w-1/2 uppercase  mx-auto font-opensans z-50 relative'>
                     Hello <span className='text-[#f40c28] font-bold'>BITCHES</span>
@@ -49,6 +49,10 @@ export function Home() {
                 <div className='text-sm w-1/2 uppercase  mx-auto font-opensans relative z-50'>
                     Since<span className='text-[#f40c28] font-bold'> 2008</span>
                 </div>
+
+                <div className='w-full h-full absolute top-0 left-0 bg-grid gradient-radial'>
+                    
+                  </div>
         </div>
         </>
     );
