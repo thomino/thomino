@@ -11,7 +11,7 @@ export const Home = ({ isVisible }) => (
         <div className=' text-white bg-zinc-900 text-center scale-100 p-4 h-full w-full flex flex-col items-center relative justify-center overflow-hidden'>
             
                 <div className='text-sm w-1/2 uppercase  mx-auto font-opensans z-50 relative'>
-                    Hello <span className='text-[#f40c28] font-bold'>BITCHES</span>
+                    Hello <span className='text-[#f40c28] font-bold'>World</span>
                 </div>
 
                 <motion.div
